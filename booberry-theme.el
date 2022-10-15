@@ -63,6 +63,13 @@
     (doom-modeline-evil-visual-state                 (:foreground booberry-violet :weight 'bold))
     (doom-modeline-info                              (:foreground booberry-mint :weight 'bold))
 
+    (diff-added                                      (:foreground booberry-saturated :background booberry-mint))
+    (diff-changed                                    (:foreground booberry-saturated :background booberry-gold))
+    (diff-removed                                    (:foreground booberry-saturated :background booberry-bubblegum))
+    (diff-hl-insert                                  (:foreground booberry-mint :background booberry-mint))
+    (diff-hl-changed                                 (:foreground booberry-gold :background booberry-gold))
+    (diff-hl-removed                                 (:foreground booberry-bubblegum :background booberry-bubblegum))
+
     (centaur-tabs-unselected                         (:background booberry-desaturated))
     (centaur-tabs-unselected-modified                (:background booberry-desaturated))
     
@@ -75,17 +82,23 @@
     (font-lock-builtin-face                          (:foreground booberry-violet))
     (font-lock-function-name-face                    (:foreground booberry-mint))
 
+    (header-line                                     (:foreground booberry-lilac :background booberry-saturated))
     (mode-line                                       (:foreground booberry-lilac :background booberry-saturated))
     (mode-line-buffer-id                             (:foreground booberry-mint))
     (mode-line-buffer-id-inactive                    (:foreground booberry-gold))
     (mode-line-inactive                              (:foreground booberry-desaturated :background booberry-saturated))
 
+    (magit-blame-heading                             (:background booberry-saturated))
+    (magit-blame-highlight                           (:background booberry-saturated))
+    (magit-blame-margin                              (:background booberry-saturated))
+    (magit-section-highlight                         (:background booberry-saturated))
+
     (line-number                                     (:foreground booberry-desaturated))
     (line-number-current-line                        (:foreground booberry-lilac))
 
-    (company-tooltip                                 (:foreground booberry-lilac :background booberry-dim))
-    (company-tooltip-selection                       (:background booberry-saturated))
-    (company-tooltip-search                          (:foreground booberry-lilac :background booberry-dim))
+    (company-tooltip                                 (:foreground booberry-lilac :background booberry-saturated))
+    (company-tooltip-selection                       (:background booberry-desaturated))
+    (company-tooltip-search                          (:foreground booberry-lilac :background booberry-saturated))
     (company-tooltip-search-selection                (:background booberry-dim))
     (lsp-ui-doc-background                           (:background booberry-saturated))
 
