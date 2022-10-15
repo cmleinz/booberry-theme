@@ -82,6 +82,7 @@
     (font-lock-builtin-face                          (:foreground booberry-violet))
     (font-lock-function-name-face                    (:foreground booberry-mint))
 
+    (fringe                                          (:foreground booberry-lilac :background booberry-saturated ))
     (header-line                                     (:foreground booberry-lilac :background booberry-saturated))
     (mode-line                                       (:foreground booberry-lilac :background booberry-saturated))
     (mode-line-buffer-id                             (:foreground booberry-mint))
