@@ -103,12 +103,14 @@
     (company-tooltip-selection                       (:background booberry-desaturated))
     (company-tooltip-search                          (:foreground booberry-lilac :background booberry-saturated))
     (company-tooltip-search-selection                (:background booberry-dim))
-    (lsp-ui-doc-background                           (:background booberry-saturated))
 
+    (lsp-ui-doc-background                           (:background booberry-saturated))
     (lsp-face-highlight-read                         (:background booberry-dim))
     (lsp-face-highlight-textual                      (:background booberry-dim))
     (lsp-face-highlight-write                        (:background booberry-dim))
     (lsp-ui-peek-line-number                         (:foreground booberry-desaturated))
+
+    (eglot-highlight-symbol-face                     (:background booberry-saturated))
 
     (sp-show-pair-enclosing                          (:background booberry-dim))
     (sp-pair-overlay-face                            (:background booberry-saturated))
