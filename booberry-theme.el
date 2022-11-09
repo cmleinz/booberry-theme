@@ -98,6 +98,7 @@
 
     (line-number                                     (:foreground booberry-desaturated))
     (line-number-current-line                        (:foreground booberry-lilac))
+    (hl-line                                         (:background booberry-saturated))
 
     (company-tooltip                                 (:foreground booberry-lilac :background booberry-saturated))
     (company-tooltip-selection                       (:background booberry-desaturated))
